@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+
+            /* ------modification générale de la page*-----*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+     margin-left:3%;
+     margin-right: 3%;
+}
+div i {
+    color: #0065FC;
+}
+
+h1{
+font-size: 16px;
+font-weight: bold;
+}
+
+h2{
+font-size: 14px;
+}
+
+h3{
+font-size: 12px;
+}
+
+nav a , a , nav ul {
+list-style-type: none;
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+
+a:hover{
+color: #0065FC;
+}
+        /* --------logo+ menu de navigation--------------*/  
+        
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo
+{
+    float: left;
+    width: 150px;
+}
+
+/* Navigation */
+
+#inscriremobile
+{
+    display: none;
+}
+
+.headernav ul
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.headernav li
+{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.headernav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    line-height: 20px;
+    padding-top: 35px;
+    padding-left: 10px;
+    border-top: 2px solid transparent;
+}
+
+.headernav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    line-height: 20px;
+    padding-top: 35px;
+}
+#inscrire
+{
+    color: #0065FC;
+}
+
+
+
+                       
+
+       /*-----------titre+ bouton de reccherches + filtres---------------*/
+
+.search {
+    margin-top: 45px;
+}
+
+.search h2 {
+margin-bottom: 30px;
+ }
+
+.search__city {
+display: inline-flex;
+border: none;
+margin: auto;
+overflow: auto;
+border: 2px solid #f2f2f2;
+border-radius: 15px 15px 15px 15px;
+} 
+
+#search__text {
+display: inline;
+padding: 12px;
+width: 210px;
+font-size: 100%;
+font-weight: bold;
+border: none;
+}
+
+#localisation {
+background-color:  #F2F2F2;
+padding: 16px;
+ }
+  
+#localisation i {
+color: black;
+}
+
+                         
+
+               /* ----stylisation de la partie bouton de recherche----*/
+
+
+.btn__search {
+width: 100px;
+font-size: 15px;
+font-weight: bold;
+background-color:  #F2F2F2;
+border-radius: 0px 15px 15px 0px;
+padding: 14px 14px 14px 5px;
+background-color: #0065fc;
+color: white;   
+}
+
+.btn__search:hover{
+background-color: #deebff;
+color: #0065fc;
+}
+
+
+ 
+ /* -----bouton de filtre------*/
+.nav__btn__filter{
+display: flex;
+margin-top: 30px;
+align-items: center;
+font-weight: bold;
+}
+                        
+.filter {
+border: 2px solid #f2f2f2;
+padding-right: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 30px;
+
+}
+                        
+.filter:hover{
+background-color: #f3f8ff;
+}
+
+.filter i {
+padding: 16px;
+border-radius: 100px;
+margin-right: 10px;
+color: #0065FC;
+background-color: #deebff;
+margin-bottom: -2px;
+border: 1px solid #cad7eb;
+text-align:left;
+cursor: pointer;
+}                                 
+                        
+.filter:hover i {
+color: #deebff;
+background-color: #0065FC;
+}
+.information{
+margin:30px 0 30px 0 
+}
+
+
+
+/* rend le contenu populaire et hebergements alignés et flex */
+
+.flex__container {
+display: flex;
+flex-flow: row-reverse;
+justify-content: space-between;
+align-items: center;
+}
+
+
+/* la sidebar de droite avec les plus populaires*/
+
+.sidebar {
+margin-left: 40px;
+width: 440px;
+height: 620px;
+border-radius: 20px;
+background-color: #f2f2f2
+}
+
+.popular__title h1 {
+float: left;
+margin: 30px 170px 0 40px;
+}
+
+.popular__title i { 
+margin: 30px 0 0 0 ;
+color: black;
+}
+
+.sidebar a {
+color: black;
+text-decoration: none;
+}
+
+
+  /* la stylisation des vignettes populaires*/
+                
+.thumbnails__popular {
+width: 345px;
+height: 145px;
+background-color: white;
+margin:30px 40px 30px 40px;
+border-radius: 20px;
+border-color: black;
+}    
+
+.thumbnails__popular img {
+float: left;
+padding: 3px;
+width: 144px;
+height: 144px;
+margin-right: 10px;
+border-radius: 20px 0 0 20px;
+}
+
+.name__hotel h2 {
+padding-top: 20px;
+}
+
+.star__hotel {
+padding-top: 30px;
+}
+
+
+
+/*--les hebergements de marseille*/
+
+
+
+.container__marseille{
+width: 875px;
+height: 620px;
+background-color: #f2f2f2;
+border-radius: 20px;
+}
+.container__marseille h1{
+margin-left: 40px;
+padding-top: 30px;
+}
+       
+.hotel__marseille{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+ 
+
+            /* stylisation des vignettes des hebergements*/
+            
+.thumbnails__hotel {
+width: 245px;
+height: 200px;
+background-color: white;
+margin: 20px 20px 20px 20px;
+box-shadow: 5px 3px 3px lightgrey;
+border-radius: 20px;         
+}  
+.thumbnails__hotel img {
+width:100%;
+height: 120px;
+border-radius: 20px 20px 0 0;
+padding:3px 0 3px 3px;
+} 
+                
+.thumbnails__hotel h2 {
+margin: 5px 0 5px 10px;                      
+}  
+
+.thumbnails__hotel h3 {
+margin: 5px 0 5px 10px;
+}
+
+.star__marseille  {
+margin-left: 10px;
+}        
+
+.afficherplus h2{
+margin: 30px 0 30px 35px;
+font-weight: bold;
+}
+
+.afficherplus a:hover {
+color: #0065FC;
+}
+
+
+            /* ---------les activites à marseille-----------*/ 
+        
+.activities__marseille{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1440px;
+    height: 550px;
+}                
+
+
+.activities__marseille div {
+width: 300px;
+box-shadow: 5px 3px 3px lightgrey;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+margin:0 20px 70px 0;
+}
+
+.activities__marseille h2 {
+    margin: 0;
+}
+                             
+.activities__marseille img {
+margin:0 0 5px 0;
+width: 300px;
+border-radius: 20px 20px 0 0;
+text-align: center;
+}
+
+
+.figport {
+height: 420px;    
+} 
+.figport img {
+height: 390px;
+}  
+
+.pomegues {
+height: 210px;
+}
+.pomegues img {
+height: 180px;
+}
+.frioul{
+height: 140px;
+
+}
+.frioul img {
+height: 110px;
+}
+.calanques{
+height: 420px;    
+}   
+.calanques img{
+height: 390px;
+}
+.dame{
+height: 165px;
+}
+.dame img{
+height: 135px;
+}
+
+.longchamp{
+
+height: 180px;
+}
+.longchamp img{
+height: 150px;
+}                                 
+
+/* ----------------le pied de page------------------*/
+
+footer {
+display: flex;
+background-color: #F2F2F2;
+height: 220px;
+margin: 0 -45px;
+}                
+                  
+.footer div ul {
+width: 300px;
+margin-right: 150px;
+}
+                
+
+footer a {
+text-decoration: none;
+color: black;
+}
+
+footer a:hover {
+color: #0065FC;
+}
+
+footer li {
+list-style: none;
+}
+
+
+
