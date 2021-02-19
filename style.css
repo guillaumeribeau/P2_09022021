@@ -18,7 +18,7 @@ div i {
 
 h1{
 font-size: 16px;
-font-weight: bold;
+font-weight: 700;
 }
 
 h2{
@@ -215,14 +215,14 @@ margin:30px 0 30px 0
 display: flex;
 flex-flow: row-reverse;
 justify-content: space-between;
-align-items: center;
+
 }
 
 
 /* la sidebar de droite avec les plus populaires*/
 
 .sidebar {
-margin-left: 40px;
+
 width: 440px;
 height: 620px;
 border-radius: 20px;
@@ -282,6 +282,7 @@ padding-top: 30px;
 .container__marseille{
 width: 875px;
 height: 620px;
+margin-right: 40px;
 background-color: #f2f2f2;
 border-radius: 20px;
 }
