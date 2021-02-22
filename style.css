@@ -347,6 +347,9 @@ color: #0065FC;
     height: 550px;
 }                
 
+.activities__title h1 {
+    margin: 50px 0 20px 0;
+}
 
 .activities__marseille div {
 width: 300px;
