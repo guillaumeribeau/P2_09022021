@@ -341,82 +341,66 @@ color: #0065FC;
 
             /* ---------les activites à marseille-----------*/ 
         
+
 .activities__marseille{
     display: flex;
-    flex-flow: column wrap;
-    width: 1440px;
-    height: 550px;
-}                
+    justify-content: space-between;
+    padding: 10px;
+    border: solid red 5px;
+    margin-bottom: 200px;
+  
+  }                
 
-.activities__title h1 {
-    margin: 50px 0 20px 0;
-}
-
-.activities__marseille div {
-width: 300px;
+ .activities__marseille article{
+flex:25%;
 box-shadow: 5px 3px 3px lightgrey;
 border-radius: 20px;
-background-color: white;
-text-align: center;
-margin:0 20px 70px 0;
+border: violet 1px solid;
+margin: 10px;
 }
-
-.activities__marseille h2 {
-    margin: 0;
-}
-                             
 .activities__marseille img {
-margin:0 0 5px 0;
-width: 300px;
-border-radius: 20px 20px 0 0;
-text-align: center;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 90%;
+}
+ 
+/* .card2-3{
+    display: flex;
+    flex-direction: column;
+    border: 15px solid blue; */
+    
+ .card2{
+     border: tomato solid 3px;
+     display: flex;
+     flex-direction: column;
+     margin-bottom:40px;
+     flex:30%;
+ }
+
+.card3{
+    border:tomato solid 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:30%;
+    
 }
 
 
-.figport {
-height: 420px;    
-} 
-.figport img {
-height: 390px;
-}  
 
-.pomegues {
-height: 210px;
-}
-.pomegues img {
-height: 180px;
-}
-.frioul{
-height: 140px;
-
-}
-.frioul img {
-height: 110px;
-}
-.calanques{
-height: 420px;    
-}   
-.calanques img{
-height: 390px;
-}
-.dame{
-height: 165px;
-}
-.dame img{
-height: 135px;
+ }   
+.card5-6 {
+    display: flex;
+    flex-direction: column;
 }
 
-.longchamp{
 
-height: 180px;
-}
-.longchamp img{
-height: 150px;
-}                                 
+                   
 
 /* ----------------le pied de page------------------*/
 
 footer {
+    
 display: flex;
 background-color: #F2F2F2;
 height: 220px;
