@@ -346,6 +346,7 @@ color: #0065FC;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    height: 450px;
     border: solid red 5px;
     margin-bottom: 200px;
   
@@ -353,7 +354,7 @@ color: #0065FC;
 
  .activities__marseille article{
 flex:25%;
-box-shadow: 5px 3px 3px lightgrey;
+
 border-radius: 20px;
 border: violet 1px solid;
 margin: 10px;
@@ -361,40 +362,58 @@ margin: 10px;
 .activities__marseille img {
     width: 100%;
     border-radius: 20px 20px 0 0;
-    height: 90%;
+    
+}
+article h2 {
+text-align: center;
+margin-top: 0;
 }
  
-/* .card2-3{
-    display: flex;
-    flex-direction: column;
-    border: 15px solid blue; */
-    
- .card2{
-     border: tomato solid 3px;
-     display: flex;
-     flex-direction: column;
-     margin-bottom:40px;
-     flex:30%;
- }
-
-.card3{
-    border:tomato solid 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex:30%;
+.card1-1 img {
+    height:370px;
     
 }
+ .card2-3{
+    display: flex;
+    flex-direction: column;
+ }
 
+.card1,.card2, .card3, .card4, .card5, .card6 {
+margin-bottom: 20px;
+border: lightgray solid 1px;
+border-radius: 20px;
+box-shadow: 5px 3px 3px lightgrey;
 
+}
 
- }   
+ .card2 img {
+     height: 180px;
+}
+
+.card3 {
+    border: lightgray solid 1px;
+    border-radius: 20px;
+
+}
+.card3 img {
+    height: 130px;
+}
+
+.card4-4 img{
+    border:lightblue solid 4px;
+    height: 360px;
+}
+ 
 .card5-6 {
     display: flex;
     flex-direction: column;
 }
-
-
+.card5 img {
+    height: 160px;
+}
+.card6 img {
+height: 150px;
+}
                    
 
 /* ----------------le pied de page------------------*/
