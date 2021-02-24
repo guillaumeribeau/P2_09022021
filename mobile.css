@@ -100,6 +100,11 @@ color: #0065fc;
 
 /* -----filtres de navigation-------*/
 
+.search__city, #search__text, #submitrecherche{
+    width: 100%;
+}
+
+
 #titrefiltre{
     display:block;
     margin-bottom: 10px;
@@ -121,21 +126,16 @@ margin-right: 30px;
 
 /* side-bar les populaires */
 
-.sidebar{
-    border-radius: 0;
-    margin-bottom: 0;
+.sidebar {
+    margin:0;
+}
+.thumbnails__align{
+    min-width: 330px;
+    max-width: 400px;
 }
 
 
-.popular__title{
-margin-bottom: 30px;
-margin-left: 20px;
-  
-}
 
-.thumbnails__popular{
-    margin:auto;
-}
 
 /* les hebergements marseille*/
 .container__marseille{
@@ -144,23 +144,55 @@ margin-left: 20px;
 .container__marseille h1 {
     margin-left: 0;
     text-align: center;
+    margin-right: 180px;
 }
 .hotel__marseille {
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
+   
+
+.thumbnails__hotel{
+ width: 400px;
+ margin:10px 0;
+ 
+ 
+}
+
+.thumbnails__hotel img {
+height:200px;
+
+}
+
+
 .afficherplus h2{
-    margin: 0 0 20px 0;
     text-align: center;
+    margin-right: 300px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+   
 }
 
 /*---les activites----*/
 
-
 .activities__title h1{
-    margin:40px 0 20px 0;
     text-align: center;
+    margin-right:250px;
+
 }
+
+.activities__marseille article{
+margin:0;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
 /* ----footer----*/
 
