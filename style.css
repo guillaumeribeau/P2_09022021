@@ -210,6 +210,13 @@ background-color: #0065FC;
 .information{
 margin:30px 0 30px 20px;
 }
+.information i{
+    margin-right: 2px;
+    border: solid 1px lightgray;
+    border-radius:100%;
+    padding:6px;
+
+}
 .information h3 {
     font-weight: 300;
 }
@@ -287,67 +294,67 @@ color: #0065FC;
 
 .sidebar {
 
-    display: flex;
-    flex-direction: column;
-    flex:20%;
-    margin-right:20px;
-    height: 620px;
-    border-radius: 20px;
-    background-color: #f2f2f2;
+display: flex;
+flex-direction: column;
+flex:20%;
+margin-right:20px;
+height: 620px;
+border-radius: 20px;
+background-color: #f2f2f2;
 
-    }
-    
- 
-    .thumbnails__align{
-        
-        background-color: white;
-        border-radius: 20px;
-        height: 115px;
-        margin: 10px;
-        display: flex;
-        }
+}
 
-   
-    .thumbnails__popular img {
- 
-    width:40%;
-    height:100%;
-    padding:3px;
-    border-radius: 20px 0 0 20px;
-    }
 
-   
+.thumbnails__align{
 
-    .sidebar a {
-        color: black;
-        text-decoration: none;
-        }
-        
-    .popular__title{
-        margin-top:20px;
-        margin-left: 10px;;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       
-    }    
-   
-     
-    .popular__title i { 
-    margin-right: 10px;
-    color: black;
-    }
+background-color: white;
+border-radius: 20px;
+height: 115px;
+margin: 10px;
+display: flex;
+}
 
-   
-    .name__hotel h2 {
-    margin-top: 10px;
-    }
-    
-    .star__hotel {
-    margin-top:25px;
-    font-size: 12px;
-    } 
-    
+
+.thumbnails__popular img {
+
+width:40%;
+height:100%;
+padding:3px;
+border-radius: 20px 0 0 20px;
+}
+
+
+
+.sidebar a {
+color: black;
+text-decoration: none;
+}
+
+.popular__title{
+margin-top:20px;
+margin-left: 10px;;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}    
+
+
+.popular__title i { 
+margin-right: 10px;
+color: black;
+}
+
+
+.name__hotel h2 {
+margin-top: 10px;
+}
+
+.star__hotel {
+margin-top:25px;
+font-size: 12px;
+} 
+
 
            
 /* ---------les activites à marseille-----------*/ 
@@ -355,8 +362,8 @@ color: #0065FC;
 
 
 .activities__title {
-    margin-left:30px ;
-    margin-top:30px;
+margin-left:30px ;
+margin-top:30px;
 }     
 
 .activities__marseille{
@@ -400,7 +407,7 @@ box-shadow: 5px 3px 3px lightgrey;
 }
 
 .card2 img {
-    height: 190px;
+height: 190px;
 }
 
 .card3 {

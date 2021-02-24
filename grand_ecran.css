@@ -1,0 +1,30 @@
+
+
+/*hebergments*/
+.container__marseille{
+    max-width: 1245px;
+
+}
+.thumbnails__hotel{
+    max-width: 300px;
+    
+}
+
+
+/*sidbar*/
+
+.sidebar {
+    max-width: 350px;
+}
+
+.thumbnails__align{
+    max-width: 300px;
+}
+
+.activities__marseille{
+    max-width: 1655px;
+}
+
+.activities__marseille article{
+    max-width: 380px;
+}

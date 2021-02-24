@@ -118,16 +118,30 @@ flex-direction: column;
 .filter {
 margin-top:10px;
 margin-right: 30px;
+width:220px;
 }
 
 .filter {
     padding:0
 }
 
+#familial {
+    position:relative;
+    right: -230px;
+    top: -65px;
+}
+#romantique {
+    margin-top: -50px;
+}
+
+
+
+
 /* side-bar les populaires */
 
 .sidebar {
     margin:0;
+    border-radius: 0;
 }
 .thumbnails__align{
     min-width: 330px;
