@@ -2,16 +2,36 @@
 
 
 .flex__container {
-flex-direction: column;
+flex-direction: column-reverse;
+justify-content: flex-end;
 }
 
 /*----sidebar populaires------*/
+
+
 .sidebar {
-    
-margin-left: 0;
 width: 100%;
-margin-bottom: 20px;
+height: auto;
+margin-bottom: 30px;
+margin-left: 20px;
 }
+
+
+
+
+.thumbnails__popular img {
+width: 150px;
+
+}
+
+
+.star__hotel {
+    margin-top:0;
+    padding-top:0;
+}
+
+
+
 
 /*hebergement marseille*/
 
@@ -20,23 +40,12 @@ width: 100%;
 height: auto;
 }
 
-.thumbnails__popular img {
-float: left;
-padding: 3px;
-width: 144px;
-height: 144px;
-margin-right: 10px;
-border-radius: 20px 0 0 20px;
-}
 
 .name__hotel h2 {
 padding-top: 20px;
 }
 
-.star__hotel {
-padding-top: 30px;
-}
-    
+
 /* ---les activites----*/
 
 .activities__marseille{

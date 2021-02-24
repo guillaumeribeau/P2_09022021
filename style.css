@@ -49,14 +49,12 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items:center;
 }
 
-.logo
-{
-    float: left;
-    width: 130px;
-    margin-left: 20px;
+.logo{
+width: 130px;
+margin-left: 20px;
 }
 
 /* Navigation */
@@ -182,8 +180,8 @@ margin-left: 20px;
 .filter {
 border: 2px solid #f2f2f2;
 padding-right: 16px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 14px;
+padding-bottom: 14px;
 border-radius: 30px;
 margin-left: 20px;
 }
@@ -258,21 +256,23 @@ border-radius: 20px;
 }  
 .thumbnails__hotel img {
 width:100%;
-height: 120px;
+height: 100px;
 border-radius: 20px 20px 0 0;
 padding:3px 0 3px 3px;
 } 
                 
 .thumbnails__hotel h2 {
-margin: 5px 0 5px 10px;                      
+margin: 0px 0 10px 10px;                      
 }  
 
 .thumbnails__hotel h3 {
-margin: 5px 0 5px 10px;
+margin: 5px 0 10px 10px;
 }
 
 .star__marseille  {
 margin-left: 10px;
+font-size: 12px;
+
 }        
 
 .afficherplus h2{
@@ -302,7 +302,7 @@ color: #0065FC;
         
         background-color: white;
         border-radius: 20px;
-        height: 125px;
+        height: 115px;
         margin: 10px;
         display: flex;
         }
@@ -344,7 +344,8 @@ color: #0065FC;
     }
     
     .star__hotel {
-    margin-top:30px;
+    margin-top:25px;
+    font-size: 12px;
     } 
     
 
@@ -399,7 +400,7 @@ box-shadow: 5px 3px 3px lightgrey;
 }
 
 .card2 img {
-    height: 180px;
+    height: 190px;
 }
 
 .card3 {
@@ -421,7 +422,7 @@ display: flex;
 flex-direction: column;
 }
 .card5 img {
-height: 140px;
+height: 170px;
 }
 .card6 img {
 height: 150px;
