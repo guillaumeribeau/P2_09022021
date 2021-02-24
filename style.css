@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
             /* ------modification générale de la page*-----*/
 *{
     box-sizing: border-box;
@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+   
  
 }
 div i {
@@ -17,7 +18,7 @@ div i {
 
 h1{
 font-size: 16px;
-font-weight: 700;
+font-weight:bold 700;
 }
 
 h2{
@@ -32,7 +33,7 @@ nav a , a , nav ul {
 list-style-type: none;
 text-decoration: none;
 color: black;
-font-weight: bold;
+
 
 }
 
@@ -54,7 +55,8 @@ header
 .logo
 {
     float: left;
-    width: 150px;
+    width: 130px;
+    margin-left: 20px;
 }
 
 /* Navigation */
@@ -75,6 +77,7 @@ header
 {
     margin-right: 15px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .headernav a
@@ -109,10 +112,12 @@ header
 
 .search {
     margin-top: 45px;
+    margin-left: 20px;
 }
 
 .search h2 {
 margin-bottom: 30px;
+font-weight: 300;
  }
 
 .search__city {
@@ -171,6 +176,7 @@ display: flex;
 margin-top: 30px;
 align-items: center;
 font-weight: bold;
+margin-left: 20px;
 }
                         
 .filter {
@@ -179,7 +185,7 @@ padding-right: 16px;
 padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 30px;
-
+margin-left: 20px;
 }
                         
 .filter:hover{
@@ -201,9 +207,13 @@ cursor: pointer;
 .filter:hover i {
 color: #deebff;
 background-color: #0065FC;
+
 }
 .information{
-margin:30px 0 30px 0 
+margin:30px 0 30px 20px;
+}
+.information h3 {
+    font-weight: 300;
 }
 
 
@@ -212,8 +222,7 @@ margin:30px 0 30px 0
 
 .flex__container {
 display: flex;
-border: 2px solid green;
-flex-direction:
+
 }
 
 
@@ -339,7 +348,11 @@ color: #0065FC;
     } 
     
 
-            /* ---------les activites à marseille-----------*/ 
+           
+/* ---------les activites à marseille-----------*/ 
+
+
+
 .activities__title {
     margin-left:30px ;
     margin-top:30px;
@@ -350,15 +363,12 @@ display: flex;
 justify-content: space-between;
 padding: 10px;
 height: 450px;
-border: solid red 5px;
-margin-bottom: 200px;
+margin-bottom:60px;
 }                
 
 .activities__marseille article{
 flex:25%;
-
 border-radius: 20px;
-border: violet 1px solid;
 margin: 10px;
 }
 .activities__marseille img {
@@ -402,7 +412,7 @@ height: 130px;
 }
 
 .card4-4 img{
-border:lightblue solid 4px;
+
 height: 360px;
 }
 
