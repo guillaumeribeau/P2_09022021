@@ -172,6 +172,8 @@ color: #0065fc;
  
  /* -----bouton de filtre------*/
 .nav__btn__filter{
+display: flex;
+align-items: center;
 margin-top: 30px;
 font-weight: bold;
 margin-left: 20px;
