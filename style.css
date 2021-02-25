@@ -166,7 +166,9 @@ background-color: #deebff;
 color: #0065fc;
 }
 
-
+#loupe {
+    display: none;
+}
  
  /* -----bouton de filtre------*/
 .nav__btn__filter{

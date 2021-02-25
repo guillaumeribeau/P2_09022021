@@ -99,6 +99,25 @@ color: #0065fc;
 }
 
 
+/*bouton rechercher*/
+
+#submitrecherche{
+    display: none;
+}
+
+#loupe{
+    display: block;
+}
+
+#loupe i {
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+#loupe i:hover {
+    color:#0065fc;
+}
+
 
 /* -----filtres de navigation-------*/
 
