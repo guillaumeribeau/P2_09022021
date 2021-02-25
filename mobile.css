@@ -98,42 +98,13 @@ border-top: none;
 color: #0065fc;
 }
 
+
+
 /* -----filtres de navigation-------*/
 
 .search__city, #search__text, #submitrecherche{
     width: 100%;
 }
-
-
-#titrefiltre{
-    display:block;
-    margin-bottom: 10px;
-}
-#bar__filter{
-display: flex;
-flex-direction: column;
-}
-
-
-.filter {
-margin-top:10px;
-margin-right: 30px;
-width:220px;
-}
-
-.filter {
-    padding:0
-}
-
-#familial {
-    position:relative;
-    right: -230px;
-    top: -65px;
-}
-#romantique {
-    margin-top: -50px;
-}
-
 
 
 
@@ -143,10 +114,6 @@ width:220px;
     margin:0;
     border-radius: 0;
 }
-.thumbnails__align{
-    min-width: 330px;
-    max-width: 400px;
-}
 
 
 
@@ -155,11 +122,7 @@ width:220px;
 .container__marseille{
     background-color:white;
 }
-.container__marseille h1 {
-    margin-left: 0;
-    text-align: center;
-    margin-right: 180px;
-}
+
 .hotel__marseille {
     flex-direction: column;
     align-items: center;
@@ -168,37 +131,51 @@ width:220px;
    
 
 .thumbnails__hotel{
- width: 400px;
+ width: 100%;
  margin:10px 0;
- 
- 
-}
+ }
 
 .thumbnails__hotel img {
-height:200px;
-
+    height: 140px;
 }
 
 
 .afficherplus h2{
-    text-align: center;
-    margin-right: 300px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-   
+    text-align:left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+ 
 }
 
 /*---les activites----*/
 
-.activities__title h1{
-    text-align: center;
-    margin-right:250px;
+.activities__marseille {
+    flex-direction: column;
+    padding: 0;
 
 }
 
+
 .activities__marseille article{
-margin:0;
-margin-bottom: 20px;
+margin: 0 0 20px 0;
+}
+.card2, .card5 {
+    margin-bottom: 20px;
+}
+
+
+.activities__marseille article img {
+    height: 200px;
+    
+}
+
+.activities__marseille h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+.activities__title h1 {
+    margin-left: 10px;
 }
 
 

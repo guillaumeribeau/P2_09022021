@@ -170,9 +170,7 @@ color: #0065fc;
  
  /* -----bouton de filtre------*/
 .nav__btn__filter{
-display: flex;
 margin-top: 30px;
-align-items: center;
 font-weight: bold;
 margin-left: 20px;
 }
@@ -296,7 +294,7 @@ color: #0065FC;
 
 display: flex;
 flex-direction: column;
-flex:20%;
+flex:28%;
 margin-right:20px;
 height: 620px;
 border-radius: 20px;
@@ -361,21 +359,19 @@ font-size: 12px;
 
 
 
-.activities__title {
-margin-left:30px ;
-margin-top:30px;
+.activities__title h1 {
+margin:30px 0 0 30px;
 }     
 
 .activities__marseille{
 display: flex;
 justify-content: space-between;
 padding: 10px;
-height: 450px;
 margin-bottom:60px;
 }                
 
 .activities__marseille article{
-flex:25%;
+flex: 25%;
 border-radius: 20px;
 margin: 10px;
 }
@@ -389,50 +385,43 @@ text-align: center;
 margin-top: 0;
 }
 
-.card1-1 img {
-height:370px;
-
-}
-.card2-3{
-display: flex;
-flex-direction: column;
-}
-
 .card1,.card2, .card3, .card4, .card5, .card6 {
-margin-bottom: 20px;
 border: lightgray solid 1px;
 border-radius: 20px;
 box-shadow: 5px 3px 3px lightgrey;
 
 }
 
-.card2 img {
-height: 190px;
+.card1-1 img {
+    height: 430px;
+}
+.card2-3{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
-.card3 {
-border: lightgray solid 1px;
-border-radius: 20px;
 
+.card2 img{
+    height:190px;
 }
 .card3 img {
-height: 130px;
+    height: 120px;
 }
 
-.card4-4 img{
-
-height: 360px;
+.card4-4 img {
+    height: 430px;
 }
-
 .card5-6 {
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 }
-.card5 img {
-height: 170px;
+.card5 img{
+    height: 135px;
 }
-.card6 img {
-height: 150px;
+.card6 img{
+    height: 150px;
 }
                 
 

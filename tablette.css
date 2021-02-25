@@ -1,5 +1,25 @@
 
+/*filtres */
 
+.bar__filter {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.filter{
+    margin-right: 10px;
+   padding:0;
+   min-width: 200px;
+
+}
+#titrefiltre{
+display: block;
+}
+
+
+/* les deux containers hebergement et sidebar*/
 
 .flex__container {
 flex-direction: column-reverse;
@@ -41,22 +61,10 @@ margin:0;
 
 /* ---les activites----*/
 
+
 .activities__marseille{
-flex-direction: column;
-align-items: center;
-height: auto;
-padding:0;
+   padding-top: 0;
 }
-
-.activities__title h1 {
-    text-align: center;
-}
-.activities__marseille img{
-   width: 400px;
-    height: 200px;
-    
-}
-
 
 /*----footer----*/
 
