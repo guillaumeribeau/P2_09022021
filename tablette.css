@@ -63,8 +63,17 @@ margin:0;
 
 
 .activities__marseille{
-   padding-top: 0;
+    flex-wrap: wrap;
+    padding-top: 0;
+   
 }
+
+ .activities__marseille article {
+ flex:40%;
+ border: darkgoldenrod solid 3px;
+}
+
+
 
 /*----footer----*/
 

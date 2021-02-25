@@ -1,6 +1,9 @@
 
 
-/*hebergments*/
+
+
+
+/*
 .container__marseille{
     max-width: 1245px;
 
@@ -11,7 +14,7 @@
 }
 
 
-/*sidbar*/
+/*sidbar
 
 .sidebar {
     max-width: 350px;
@@ -27,4 +30,4 @@
 
 .activities__marseille article{
     max-width: 380px;
-}
+} 
