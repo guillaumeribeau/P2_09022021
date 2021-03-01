@@ -1,33 +1,11 @@
 
-
-
-
-
-/*
-.container__marseille{
-    max-width: 1245px;
-
-}
-.thumbnails__hotel{
-    max-width: 300px;
-    
+body{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1350px;
 }
 
 
-/*sidbar
 
-.sidebar {
-    max-width: 350px;
-}
-
-.thumbnails__align{
-    max-width: 300px;
-}
-
-.activities__marseille{
-    max-width: 1655px;
-}
-
-.activities__marseille article{
-    max-width: 380px;
-} 

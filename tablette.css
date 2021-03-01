@@ -52,12 +52,15 @@ width: 150px;
 /*hebergement marseille*/
 
 .container__marseille{
+flex-wrap: wrap;
 width: 100%;
 height: auto;
 margin:0;
 }
 
+.hotel__marseille{
 
+}
 
 /* ---les activites----*/
 
