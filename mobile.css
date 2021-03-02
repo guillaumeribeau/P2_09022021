@@ -2,12 +2,12 @@
 /*----- mobile responsive---- */
 
 body{
-    margin-left: 0;
-    margin-right: 0;
+margin-left: 0;
+margin-right: 0;
 }
 
-    
-    /*header en mobile */
+
+/*header en mobile */
 .logo{
 float: unset;
 width: 125px; 
@@ -106,46 +106,46 @@ color: #0065fc;
 
 
 .search__city, #search__text, #submitrecherche{
-    width: 97%;
-   
+width: 97%;
+
 }
 
 
 #submitrecherche{
-    display: none;
+display: none;
 }
 
 #loupe{
-    display: block;
+display: block;
 }
 
 #loupe i {
-    color: white;
-    font-size: 25px;
-    padding-left: 20px;
+color: white;
+font-size: 25px;
+padding-left: 20px;
 }
 #loupe i:hover {
-    color:#0065fc;
+color:#0065fc;
 }
 
 
 /* -----filtres de navigation-------*/
 
 .filter {
-    margin-right: 10px;
+margin-right: 10px;
 }
 #animaux{
-    padding-right: 10px;
+padding-right: 10px;
 }
 
 /* side-bar les populaires */
 
 .sidebar {
-    margin:0;
-    border-radius: 0;
-    }
-.sidebar h1{
-    margin-left: 10px;
+margin:0;
+border-radius: 0;
+}
+.sidebar h2{
+margin-left: 10px;
 
 }
 
@@ -153,39 +153,42 @@ color: #0065fc;
 
 /* les hebergements marseille*/
 .container__marseille{
-    background-color:white;
+background-color:white;
+}
+.container__marseille h2 {
+margin-left: 20px;
 }
 
 .hotel__marseille {
-    flex-direction: column;
-    align-items: center;
-    
+flex-direction: column;
+align-items: center;
+
 }
-   
+
 
 .thumbnails__hotel{
- width: 100%;
- margin:10px 0;
- }
+width: 100%;
+margin:10px 0;
+}
 
 .thumbnails__hotel img {
-    height: 140px;
+height: 140px;
 }
 
 
-.afficherplus h2{
-    text-align:left;
-    margin-top: 0;
-    margin-bottom: 20px;
-    
- 
+.afficherplus h3{
+text-align:left;
+margin-top: 0;
+margin-bottom: 20px;
+
+
 }
 
 /*---les activites----*/
 
 .activities__marseille {
-    flex-direction: column;
-    padding: 0;
+flex-direction: column;
+padding: 0;
 
 }
 
@@ -194,22 +197,22 @@ color: #0065fc;
 margin: 0 0 20px 0;
 }
 .card2, .card5 {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 
 .activities__marseille article img {
-    height: 200px;
-    
+height: 200px;
+
 }
 
-.activities__marseille h2 {
-    text-align: left;
-    margin-left: 10px;
+.activities__marseille h3 {
+text-align: left;
+margin-left: 10px;
 }
-.activities__title h1 {
-    margin-left: 10px;
-    margin-bottom: 20px;
+.activities__title h2 {
+margin-left: 10px;
+margin-bottom: 20px;
 }
 
 
@@ -222,8 +225,8 @@ margin: 0 0 20px 0;
 /* ----footer----*/
 
 .footer {
-    margin: 0;
-    align-items:left;
-   height: auto;
-    width: 100%;
-    }
+margin: 0;
+align-items:left;
+height: auto;
+width: 100%;
+}
