@@ -73,6 +73,10 @@ margin:0;
  flex:40%;
  
 }
+.card2 img, .card3 img, .card5 img, .card6 img {
+    height: 180px;
+}
+
 
 
 

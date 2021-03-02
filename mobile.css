@@ -1,7 +1,10 @@
 
 /*----- mobile responsive---- */
 
-
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
 
     
     /*header en mobile */
@@ -101,6 +104,13 @@ color: #0065fc;
 
 /*bouton rechercher*/
 
+
+.search__city, #search__text, #submitrecherche{
+    width: 97%;
+   
+}
+
+
 #submitrecherche{
     display: none;
 }
@@ -121,19 +131,23 @@ color: #0065fc;
 
 /* -----filtres de navigation-------*/
 
-.search__city, #search__text, #submitrecherche{
-    width: 100%;
+.filter {
+    margin-right: 10px;
 }
-
-
+#animaux{
+    padding-right: 10px;
+}
 
 /* side-bar les populaires */
 
 .sidebar {
     margin:0;
     border-radius: 0;
-}
+    }
+.sidebar h1{
+    margin-left: 10px;
 
+}
 
 
 
@@ -195,6 +209,7 @@ margin: 0 0 20px 0;
 }
 .activities__title h1 {
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 

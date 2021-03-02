@@ -109,7 +109,7 @@ margin-left: 20px;
        /*-----------titre+ bouton de reccherches + filtres---------------*/
 
 .search {
-    margin-top: 45px;
+    margin-top:0;
     margin-left: 20px;
 }
 
@@ -121,7 +121,6 @@ font-weight: 300;
 .search__city {
 display: inline-flex;
 border: none;
-margin: auto;
 overflow: auto;
 border: 2px solid #f2f2f2;
 border-radius: 15px 15px 15px 15px;
@@ -244,7 +243,7 @@ background-color: #f2f2f2;
 border-radius: 20px;
 }
 .container__marseille h1{
-margin-left: 10px;
+margin-left: 25px;
 padding-top: 20px;
 
 }
@@ -285,7 +284,7 @@ font-size: 12px;
 }        
 
 .afficherplus h2{
-margin:30px 0 0 10px;
+margin:30px 0 0 25px;
 font-weight: bold;
 }
 
@@ -387,6 +386,7 @@ border-radius: 20px 20px 0 0;
 article h2 {
 text-align: center;
 margin-top: 0;
+
 }
 
 .card1,.card2, .card3, .card4, .card5, .card6 {
