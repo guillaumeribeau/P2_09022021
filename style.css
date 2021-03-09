@@ -67,15 +67,26 @@ margin-left: 20px;
 
 /* Navigation */
 
-#inscriremobile
-{
-display: none;
+
+.headernav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
 }
+
+.li_inscrire {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
 
 .headernav ul
 {
 list-style-type: none;
 display: flex;
+
 
 }
 

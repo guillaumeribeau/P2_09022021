@@ -41,21 +41,12 @@ color: #0065fc;
 text-decoration: none;
 }
 
-.li_inscrire
-{
-display: none;
+.li_inscrire{
+position: absolute;
+top:10px;
+margin-right: 25px;
 }
 
-#inscriremobile
-{
-display: initial;
-border: none;
-}
-
-#inscriremobile:hover
-{
-text-shadow: navy 0.02em 0.02em 0.02em;
-}
 
 .headernav
 {
